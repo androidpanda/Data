@@ -1,0 +1,82 @@
+<resources>
+         <string name="app_name">자료구조 강좌</string>
+
+         <string name="version">1.0v</string>
+
+         <string name="back">back</string>
+
+    <!--      developer     -->
+
+         <string name="Intro">자료구조 강좌</string>
+
+         <string name="Dev">개발자 : 코딩곰</string>
+
+         <string name="app_introduce">자료구조 강의 앱</string>
+
+         <string name="talk">카카오톡 아이디 : beardev</string>
+
+        <!--   Stack     -->
+
+        <string name="stack">Stack</string>
+        <string name="stack2">메모리 안에 데이터들을 효율적으로 관리하게 도와주는 자료 참조 방식
+    </string>
+        <string name="stack3">FILO(First In Last Out)</string>
+        <string name="stack4">처음에 오는 데이터가 제일 마지막에 나간다.</string>
+        <string name="stack5">LIFO(Last In First Out)</string>
+        <string name="stack6">제일 마지막에 들어온 데이터가 제일 먼저 나간다</string>
+        <string name="stack7">한 쪽 끝에서만 데이터를 넣거나 뺄 수 있는 선형구조,
+        제일 마지막에 들어온 데이터가 제일 먼저 나가는 방식</string>
+        <string name="stack8">ex) ctrl + z로 실행 취소\n
+    작업을 먼저 한 것이 먼저 취소된다.</string>
+        <string name="stack9">대표적인 스택 구현 방법</string>
+        <string name="stack10">1. 1차원 배열\n
+ 구현이 상대적으로 쉬우나 인풋 사이즈 알아야 됨.</string>
+        <string name="stack11">2. 리스트\n
+ 구현이 상대적으로 어렵지만 제한된 사이즈로부터 자유롭다.
+</string>
+        <string name="stack12">스택 주요 기능</string>
+        <string name="stack13">push</string>
+        <string name="stack14">스택에 데이터를 추가하는 기능</string>
+        <string name="stack15">pop</string>
+        <string name="stack16">스택의 최상위 데이터를 빼내어서 가져오는 기능</string>
+        <string name="stack17">ex) 택시기사 아저씨들이 돈을 받으면 돈을 push하고, 거스름돈을 pop
+        해주신다.
+    </string>
+        <string name="stack18">top/peek</string>
+        <string name="stack19">제일 최근에 들어간 데이터, 최상위 데이터</string>
+        <string name="stack20">스택/LIFO를 이용한 예</string>
+        <string name="stack21">실행 취소(ctrl + z), 웹브라우저 뒤로가기, 계산기</string>
+
+
+
+        <!--   Queue     -->
+
+        <string name="queue">Queue</string>
+        <string name="queue1">메모리 안 데이터들을 더욱 효율적으로 다루기 위해
+        만들어진 데이터 참조 방식</string>
+        <string name="queue2">FIFO (First In First Out)</string>
+        <string name="queue2_1">양 쪽 끝에서만 데이터를 넣거나 뺄 수 있는 선형 구조,
+        제일 처음에 들어온 데이터가 제일 빨리 나가는 방식</string>
+        <string name="queue3">A B C가 순차적으로 들어오면, A, B, C 순서로 나간다.</string>
+        <string name="queue4">ex) 마트에서 할인한다고 하면 사람들이 모여서 줄을 서는데,
+        먼저 온 사람이 먼저 구매를 한다.</string>
+        <string name="queue5">Queue의 사용하는 대표적 사례</string>
+        <string name="queue6">프로세스 스케쥴링\n대부분의 입출력(e.g. 파일 입출력 등)\n
+    프린트 대기열\n네트워크 패킷처리\n게임 대기열 (e.g. 롤, 오버워치)</string>
+        <string name="queue7">Queue를 구현하는 방법</string>
+        <string name="queue8">정적인 어레이 (e.g. Fixed Array)</string>
+        <string name="queue9">구현이 쉽지만, 고정된 Queue 크기</string>
+        <string name="queue10">동적인 어레이 (e.g. Linked List)</string>
+        <string name="queue11">구현이 약간 더 어렵지만, 자유로운 Queue의 크기</string>
+        <string name="queue12">Queue의 대표적인 함수들</string>
+        <string name="queue13">EnQueue : 큐에 값을 집어넣는 함수\n
+    DeQueue : 큐에 값을 빼내는 함수\nSize :　Queue의 크기를 확인하는 함수\n
+    Empty : 큐가 비어있는지 확인하는 함수</string>
+        <string name="queue14">Queue의 동작</string>
+        <string name="queue15">Queue의 다른 형식</string>
+        <string name="queue16">Circular Queue [환형 큐] - 정적인 어레이</string>
+        <string name="queue17">Priority Queue[우선 순위 큐]</string>
+        <string name="queue18">→ 먼저 들어온 순이 아닌,
+        우선 순위에 따라서 배열의 순서가 바뀌는 큐이다.</string>
+
+    </resources>

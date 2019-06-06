@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#87CEFA"
+    tools:context="bear.coding.datalec.QueueActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1500dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/queue"
+            android:textSize="48dp"
+            android:id="@+id/Queue" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue1"
+            android:textSize="32dp"
+            android:id="@+id/queue1"
+            android:layout_marginTop="70dp"
+            android:layout_below="@+id/Queue"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/queue2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue2"
+            android:textSize="26dp"
+            android:layout_marginTop="55dp"
+            android:layout_below="@+id/queue1"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/queue3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue3"
+            android:textSize="20dp"
+            android:layout_below="@+id/queue2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp" />
+
+        <TextView
+            android:id="@+id/queue4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue4"
+            android:textSize="15dp"
+            android:layout_below="@+id/queue3"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp" />
+
+        <TextView
+            android:id="@+id/queue5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue5"
+            android:textSize="24dp"
+            android:layout_marginTop="63dp"
+            android:layout_below="@+id/queue4"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/queue6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue6"
+            android:textSize="18dp"
+            android:layout_below="@+id/queue5"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp" />
+
+        <TextView
+            android:id="@+id/queue7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue7"
+            android:textSize="24dp"
+            android:layout_marginTop="51dp"
+            android:layout_below="@+id/queue6"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/queue8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue8"
+            android:textSize="18dp"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/queue7"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/queue9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue9"
+            android:textSize="18dp"
+            android:layout_below="@+id/queue8"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/queue10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue10"
+            android:textSize="18dp"
+            android:layout_below="@+id/queue9"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/queue11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue11"
+            android:textSize="18dp"
+            android:layout_below="@+id/queue10"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/queue12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue12"
+            android:textSize="24dp"
+            android:layout_marginTop="42dp"
+            android:layout_below="@+id/queue11"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/queue13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue13"
+            android:textSize="18dp"
+            android:layout_below="@+id/queue12"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp" />
+
+        <TextView
+            android:id="@+id/queue15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue15"
+            android:textSize="24dp"
+            android:layout_marginTop="28dp"
+            android:layout_below="@+id/queue13"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/queue16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue16"
+            android:textSize="18dp"
+            android:layout_below="@+id/queue15"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp" />
+
+        <TextView
+            android:id="@+id/queue17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue17"
+            android:textSize="18dp"
+            android:layout_below="@+id/queue16"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp" />
+
+        <TextView
+            android:id="@+id/queue18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/queue18"
+            android:textSize="18dp"
+            android:layout_below="@+id/queue17"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp" />
+
+        <Button
+            android:id="@+id/back2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="218dp" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
